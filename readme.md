@@ -1,4 +1,4 @@
-# Streamdeck-Homematic
+# StreamdeckHomematic
 
 This repository contains a [Stream Deck](https://www.elgato.com/en/gaming/stream-deck) plugin that adds support for some components of the [HomeMatic](https://www.eq-3.com/products/homematic.html) home automation system.
 
