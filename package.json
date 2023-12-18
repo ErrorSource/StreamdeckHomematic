@@ -1,0 +1,56 @@
+{
+  "name": "streamdeckhomematic",
+  "version": "0.2.0",
+  "description": "Streamdeck Plugin for the Homatic home automation system",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "watch": "gulp watch",
+    "lint": "gulp lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErrorSource/StreamdeckHomematic.git"
+  },
+  "keywords": [
+    "Homematic",
+    "Streamdeck"
+  ],
+  "license": "UNLICENSED",
+  "private": true,
+  "author": "Georg Kemser",
+  "bugs": {
+    "url": "https://github.com/ErrorSource/StreamdeckHomematic"
+  },
+  "homepage": "https://github.com/ErrorSource/StreamdeckHomematic#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-spinners": "^0.9.0",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.10.1",
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "@types/uuid": "^8.3.0",
+    "@types/webpack": "^4.41.22",
+    "@typescript-eslint/eslint-plugin": "^4.1.0",
+    "@typescript-eslint/parser": "^4.1.0",
+    "css-loader": "^4.3.0",
+    "del": "^5.1.0",
+    "eslint": "^7.9.0",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "fancy-log": "^1.3.3",
+    "gulp": "^4.0.2",
+    "gulp-eslint": "^6.0.0",
+    "gulp-json-editor": "^2.5.4",
+    "style-loader": "^1.2.1",
+    "ts-loader": "^8.0.3",
+    "typescript": "^4.0.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-stream": "^6.1.0"
+  }
+}

@@ -1,0 +1,87 @@
+{
+    "$schema": "./streamdeck.schema.json",
+    "Actions": [
+        {
+			"Icon": "assets/state_off",
+			"Name": "Switch1 On / Off",
+			"States": [
+				{
+                    "Image": "assets/state_off"
+				}
+			],
+			"Tooltip": "Switch a switch on or off",
+            "UUID": "de.kemser.streamdeck.homematic.switch1",
+            "PropertyInspectorPath": "propertyInspector/Switch1/switch1.html"
+        },
+        {
+			"Icon": "assets/state_off",
+			"Name": "Switch2 On / Off",
+			"States": [
+				{
+                    "Image": "assets/state_off"
+				}
+			],
+			"Tooltip": "Switch a switch on or off",
+            "UUID": "de.kemser.streamdeck.homematic.switch2",
+            "PropertyInspectorPath": "propertyInspector/Switch2/switch2.html"
+        },
+        {
+			"Icon": "assets/state_off",
+			"Name": "Relay On / Off",
+			"States": [
+				{
+                    "Image": "assets/state_off"
+				}
+			],
+			"Tooltip": "Switch a relay on or off",
+            "UUID": "de.kemser.streamdeck.homematic.relay",
+            "PropertyInspectorPath": "propertyInspector/Relay/relay.html"
+        },
+        {
+			"Icon": "assets/PluginLogo",
+			"Name": "Climate",
+			"States": [
+				{
+                    "Image": "assets/PluginLogo"
+				}
+			],
+			"Tooltip": "Show temperature/humidty",
+            "UUID": "de.kemser.streamdeck.homematic.climate",
+            "PropertyInspectorPath": "propertyInspector/Climate/climate.html"
+		},
+        {
+			"Icon": "assets/PluginLogo",
+			"Name": "Blinds",
+			"States": [
+				{
+                    "Image": "assets/PluginLogo"
+				}
+			],
+			"Tooltip": "Control window blinds",
+            "UUID": "de.kemser.streamdeck.homematic.blinds",
+            "PropertyInspectorPath": "propertyInspector/Blinds/blinds.html"
+		}
+    ],
+    
+    "SDKVersion": 2,
+    "Author": "Georg Kemser",
+    "CodePath": "index.html",
+    "Name": "Homematic",
+    "Description": "This plugin lets you control some Homematic devices from your Streamdeck",
+    "Icon": "assets/PluginLogo",
+    "URL": "https://github.com/ErrorSource/StreamdeckHomematic",
+    "Version": "0.2.0",
+    "OS": [
+        {
+            "Platform": "mac",
+            "MinimumVersion" : "10.11"
+          },
+          {
+            "Platform": "windows",
+            "MinimumVersion" : "10"
+          }
+    ],
+    "Software": {
+        "MinimumVersion": "4.1"
+    }
+}
